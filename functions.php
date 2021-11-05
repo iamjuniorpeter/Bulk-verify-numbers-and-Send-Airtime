@@ -40,11 +40,6 @@ class DataSource
         $username = 'root';
         $password = "";
 
-        /*$host = "127.0.0.1";
-        $db_name = "dbamigwfyejsdq";
-        $username = "uly7ksebwl9tu ";
-        $password = "p2rgw8wfeznh";*/
-
         try{
             $conn = new PDO("mysql:host=" . $host . ";dbname=" . $db_name, $username, $password);
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
