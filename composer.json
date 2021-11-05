@@ -1,0 +1,6 @@
+{
+    "require": {
+        "africastalking/africastalking": "^3.0",
+        "vonage/client": "^2.4"
+    }
+}
